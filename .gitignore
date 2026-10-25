@@ -1,4 +1,32 @@
+# Virtual environments
 .venv/
+venv/
+env/
+
+# Local data (collected listings database)
 data/
+*.db
+*.sqlite3
+
+# Python
 __pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Tests and tooling
 .pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
